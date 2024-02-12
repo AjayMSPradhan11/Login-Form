@@ -1,0 +1,26 @@
+body {
+    background-image: url("index.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #form{
+    background-color: antiquewhite;
+    width: 25%;
+    margin: 125px auto;
+    padding: 50px;
+    box-shadow: 10px 10px 5px rgb(94, 27, 89);
+    border-radius: 20px; 
+  }
+  #btn{
+    color: antiquewhite;
+    background-color: rgb(94, 27, 89);
+    padding: 10px;
+    font-size: large;
+    border-radius: 20px;
+  }
+  @media screen and (max-width:700px){
+    #form{
+      width: 65%;
+      padding: 40px;
+    }
+  }
